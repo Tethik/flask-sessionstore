@@ -1,0 +1,23 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+nose = "*"
+coveralls = "*"
+nose-timer = "*"
+pymongo = "*"
+pynamodb = "*"
+redis = "*"
+boto3 = "*"
+placebo = "*"
+mock = "*"
+Flask-SQLAlchemy = "*"
+
+[packages]
+Flask = ">=0.12"
+cachelib = "*"
+
+[requires]
+python_version = "3.8"
